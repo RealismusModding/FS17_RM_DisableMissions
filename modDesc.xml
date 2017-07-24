@@ -11,7 +11,7 @@
     </title>
 
     <description>
-        <en><![CDATA[Disables all missions on fields not owned by the player. All fields not owned will also no longer be worked by NPCs.]]></en>
+        <en><![CDATA[Disables all missions on fields not owned by the player. DO NOT TRANSLATE THIS YET]]></en>
     </description>
 
     <iconFilename>icon.dds</iconFilename>

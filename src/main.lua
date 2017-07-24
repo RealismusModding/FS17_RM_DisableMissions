@@ -7,11 +7,17 @@
 -- Copyright (c) Realismus Modding, 2017
 ----------------------------------------------------------------------------------------------------
 
-Mission00.loadMission00Finished = Utils.appendedFunction(Mission00.loadMission00Finished, function ()
-    if g_currentMission.fieldDefinitionBase ~= nil and g_currentMission.fieldDefinitionBase.fieldDefs ~= nil then
-        for _,fieldDef in pairs(g_currentMission.fieldDefinitionBase.fieldDefs) do
-            fieldDef.fieldJobUsageAllowed = false
-        end
-    end
+-- Mission00.loadMission00Finished = Utils.appendedFunction(Mission00.loadMission00Finished, function ()
+--     if g_currentMission.fieldDefinitionBase ~= nil and g_currentMission.fieldDefinitionBase.fieldDefs ~= nil then
+--         for _,fieldDef in pairs(g_currentMission.fieldDefinitionBase.fieldDefs) do
+--             fieldDef.fieldJobUsageAllowed = false
+--         end
+--     end
+    
+    
+-- end)
+
+FieldJobManager.createNewFieldJob = Utils.overwrittenFunction(FieldJobManager.createNewFieldJob, function()
+    return nil
 end)
 
