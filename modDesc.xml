@@ -14,6 +14,9 @@
         <en><![CDATA[Disables all missions on fields not owned by the player and makes the other farmers (NPCs) happy so that you will get the same discount, if missions were enabled.
 
 Does not disable NPCs completely who will still continue to work their fields. ]]></en>
+        <fr><![CDATA[Désactive toutes les missions des champs dont le joueur n'est pas propriétaire et fait que les autre fermiers (PNJ) seront content d'avoir la même remise, que si les missions étaient activées.
+
+Ne désactive pas les PNJ complètement, où ils continueront à travailler dans leurs champs. ]]></fr>
     </description>
 
     <iconFilename>icon.dds</iconFilename>
