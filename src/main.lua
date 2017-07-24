@@ -1,23 +1,20 @@
 ----------------------------------------------------------------------------------------------------
 -- MAIN SCRIPT
 ----------------------------------------------------------------------------------------------------
--- Purpose:  Disable missions on NPC owned fields
+-- Purpose:  Disable missions on NPC owned fields and make NPCs happy since a player can no longer get discount
 -- Authors:  theSeb
 --
 -- Copyright (c) Realismus Modding, 2017
 ----------------------------------------------------------------------------------------------------
 
--- Mission00.loadMission00Finished = Utils.appendedFunction(Mission00.loadMission00Finished, function ()
---     if g_currentMission.fieldDefinitionBase ~= nil and g_currentMission.fieldDefinitionBase.fieldDefs ~= nil then
---         for _,fieldDef in pairs(g_currentMission.fieldDefinitionBase.fieldDefs) do
---             fieldDef.fieldJobUsageAllowed = false
---         end
---     end
-    
-    
--- end)
-
 FieldJobManager.createNewFieldJob = Utils.overwrittenFunction(FieldJobManager.createNewFieldJob, function()
     return nil
 end)
+
+Mission00.loadMission00Finished = Utils.appendedFunction(Mission00.loadMission00Finished, function ()
+    for _, npc in pairs(NPCUtil.npcs) do
+        npc.finishedMissions = FieldJob.THRESHOLD_NPC_IS_HAPPY
+    end
+end)
+
 
