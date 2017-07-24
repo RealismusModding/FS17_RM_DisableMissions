@@ -11,7 +11,7 @@
     </title>
 
     <description>
-        <en><![CDATA[Disables all missions on fields not owned by the player. DO NOT TRANSLATE THIS YET]]></en>
+        <en><![CDATA[Disables all missions on fields not owned by the player and makes the other farmers (NPCs) happy so that you will get the same discount, if missions were enabled.]]></en>
     </description>
 
     <iconFilename>icon.dds</iconFilename>
