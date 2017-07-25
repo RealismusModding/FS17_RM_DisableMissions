@@ -8,7 +8,7 @@
         <en>No Missions</en>
         <de>No Missions</de>
         <fr>No Missions</fr>
-        <it>Nessuna Missione</it>
+        <it>No Missions</it>
     </title>
 
     <description>
@@ -18,6 +18,9 @@ Does not disable NPCs completely who will still continue to work their fields. ]
         <it><![CDATA[Disabilita tutte le missioni sui campi non di proprietà del giocatore e rende felici gli altri agricoltori (NPC) in modo da ottenere lo stesso sconto, se le missioni sono abilitate.
 
 Non disattiva completamente i NPC che continueranno a lavorare i loro campi.]]></it>
+        <fr><![CDATA[Désactive toutes les missions des champs dont le joueur n'est pas propriétaire et fait que les autre fermiers (PNJ) seront content d'avoir la même remise, que si les missions étaient activées.
+
+Ne désactive pas les PNJ complètement, où ils continueront à travailler dans leurs champs. ]]></fr>
     </description>
 
     <iconFilename>icon.dds</iconFilename>
