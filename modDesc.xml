@@ -9,6 +9,7 @@
         <de>No Missions</de>
         <fr>No Missions</fr>
         <it>No Missions</it>
+        <hu>No Missions</hu>        
     </title>
 
     <description>
@@ -21,6 +22,10 @@ Non disattiva completamente i NPC che continueranno a lavorare i loro campi.]]><
         <fr><![CDATA[Désactive toutes les missions des champs dont le joueur n'est pas propriétaire et fait que les autre fermiers (PNJ) seront content d'avoir la même remise, que si les missions étaient activées.
 
 Ne désactive pas les PNJ complètement, où ils continueront à travailler dans leurs champs. ]]></fr>
+        
+        <hu><![CDATA[Kikapcsolja a küldetéseket azokon a földeken, amelyek nem a játékos tulajdonában vannak. Ha a küldetések engedélyezve lesznek, az NPC farmerektől továbbra is megkapod a kedvezményt.
+
+Azokat az NPCket nem kapcsolja ki, akiknek a földjén még dolgozol. ]]></hu>        
     </description>
 
     <iconFilename>icon.dds</iconFilename>
