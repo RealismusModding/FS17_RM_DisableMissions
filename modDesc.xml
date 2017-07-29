@@ -9,7 +9,8 @@
         <de>No Missions</de>
         <fr>No Missions</fr>
         <it>No Missions</it>
-        <hu>No Missions</hu>        
+        <hu>No Missions</hu>
+        <pl>No Missions</pl>
     </title>
 
     <description>
@@ -25,7 +26,10 @@ Ne désactive pas les PNJ complètement, où ils continueront à travailler dans
         
         <hu><![CDATA[Kikapcsolja a küldetéseket azokon a földeken, amelyek nem a játékos tulajdonában vannak. Ha a küldetések engedélyezve lesznek, az NPC farmerektől továbbra is megkapod a kedvezményt.
 
-Azokat az NPCket nem kapcsolja ki, akiknek a földjén még dolgozol. ]]></hu>        
+Azokat az NPCket nem kapcsolja ki, akiknek a földjén még dolgozol. ]]></hu>
+        <pl><![CDATA[Wyłącza wszystkie misje na polach nie należących do gracza zachowując przy tym taką samą zniżkę na zakup pól, jak gdyby misje były włączone.
+
+Nie wyłącza wirtualnych farmerów całkowicie, dzięki czemu będą oni dalej pracować na swoich polach. ]]></pl>
     </description>
 
     <iconFilename>icon.dds</iconFilename>
