@@ -16,20 +16,23 @@
     <description>
         <en><![CDATA[Disables all missions on fields not owned by the player and makes the other farmers (NPCs) happy so that you will get the same discount, if missions were enabled.
 
-Does not disable NPCs completely who will still continue to work their fields. ]]></en>
+Does not disable NPCs completely who will still continue to work their fields.]]></en>
         <it><![CDATA[Disabilita tutte le missioni sui campi non di proprietà del giocatore e rende felici gli altri agricoltori (NPC) in modo da ottenere lo stesso sconto, se le missioni sono abilitate.
 
 Non disattiva completamente i NPC che continueranno a lavorare i loro campi.]]></it>
         <fr><![CDATA[Désactive toutes les missions des champs dont le joueur n'est pas propriétaire et fait que les autre fermiers (PNJ) seront content d'avoir la même remise, que si les missions étaient activées.
 
-Ne désactive pas les PNJ complètement, où ils continueront à travailler dans leurs champs. ]]></fr>
+Ne désactive pas les PNJ complètement, où ils continueront à travailler dans leurs champs.]]></fr>
         
         <hu><![CDATA[Kikapcsolja a küldetéseket azokon a földeken, amelyek nem a játékos tulajdonában vannak. Ha a küldetések engedélyezve lesznek, az NPC farmerektől továbbra is megkapod a kedvezményt.
 
 Azokat az NPCket nem kapcsolja ki, akiknek a földjén még dolgozol. ]]></hu>
         <pl><![CDATA[Wyłącza wszystkie misje na polach nie należących do gracza zachowując przy tym taką samą zniżkę na zakup pól, jak gdyby misje były włączone.
 
-Nie wyłącza wirtualnych farmerów całkowicie, dzięki czemu będą oni dalej pracować na swoich polach. ]]></pl>
+Nie wyłącza wirtualnych farmerów całkowicie, dzięki czemu będą oni dalej pracować na swoich polach.]]></pl>
+        <de> <! [CDATA [Deaktiviert alle Missionen auf Feldern, die nicht im Besitz des Spielers sind und macht dadurch die anderen Landwirte (NPCs) glücklich, so dass er den gleichen Preisnachlass bekommen wird. Ebenso als ob Missionen möglich wären.
+
+Deaktiviert NPCs nicht vollständig , die weiterhin ihre Feldarbeiten fortsetzen wollen.]]> </ de>
     </description>
 
     <iconFilename>icon.dds</iconFilename>
