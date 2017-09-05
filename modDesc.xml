@@ -32,7 +32,7 @@ Azokat az NPCket nem kapcsolja ki, akiknek a földjén még dolgozol. ]]></hu>
 Nie wyłącza wirtualnych farmerów całkowicie, dzięki czemu będą oni dalej pracować na swoich polach.]]></pl>
         <de> <! [CDATA [Deaktiviert alle Missionen auf Feldern, die nicht im Besitz des Spielers sind und macht dadurch die anderen Landwirte (NPCs) glücklich, so dass er den gleichen Preisnachlass bekommen wird. Ebenso als ob Missionen möglich wären.
 
-Deaktiviert NPCs nicht vollständig , die weiterhin ihre Feldarbeiten fortsetzen wollen.]]> </ de>
+Deaktiviert NPCs nicht vollständig , die weiterhin ihre Feldarbeiten fortsetzen wollen.]]> </de>
     </description>
 
     <iconFilename>icon.dds</iconFilename>
